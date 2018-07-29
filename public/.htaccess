@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+  Options +FollowSymlinks -Multiviews
+  RewriteEngine On
+
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.*)$ index.php?/$1 [QSA,PT,L]
+</IfModule>
+#修改重写文件public/.htaccess隐藏单一入口文件访问
+#a.开启httpd.conf中的rewrite的重写模块
+#b.把虚拟主机AllowOverride None  改为 AllowOverride All
+#c.修改重写文件public/.htaccess，index.php前面加个问号?
