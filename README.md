@@ -1,3 +1,4 @@
+
 ThinkPHP 5.0.15_full
 ===============
 
@@ -127,3 +128,7 @@ All rights reserved。
 ThinkPHP® 商标和著作权所有者为上海顶想信息科技有限公司。
 
 更多细节参阅 [LICENSE.txt](LICENSE.txt)
+
+# tp5-ShopProject
+基于thinkphp_5.0.15_full 的商城项目 
+
