@@ -1,10 +1,10 @@
 <?php
 namespace app\admin\controller;
 
-use think\Controller;
+//use think\Controller;
 
-class IndexController extends Controller{
-
+class IndexController extends CommonController{
+    // @用到seesion的需要继承CommonController可防止翻墙 User and Index
     //后台首页
     public function index(){
         //echo '111';
